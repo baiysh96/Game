@@ -46,28 +46,3 @@ box.addEventListener('click' , (e) => {
 
 })
 
-
-
-//
-// function gameGuess() {
-//     let myInput = document.querySelector('.game-input')
-//     if (myInput.value === '' || Number(myInput.value) < 1 || Number(myInput.value) > 10) {
-//         alert('Пожалуйста, введите число от 1 до 10!')
-//     } else if (Number(myInput.value) === number) {
-//         alert("Поздравляем, вы выиграли!")
-//     }else if (guesses > 1) {
-//         guesses--;
-//         alert(`У вас ${guesses} попыт${guesses > 1 ? 'ки' : 'ка'} осталось`)
-//     } else {
-//         alert(`
-//          Игра окончена!
-//          Номер был ${number}
-//          Начать все сначала`)
-//
-//     }
-//     myInput.value = ''
-//
-// }
-//
-// const gameBtn = document.querySelector('.game-btn');
-// gameBtn.addEventListener("click", gameGuess);

@@ -82,5 +82,5 @@ body {
     width: 200px;
     border-radius: 20px;
     padding: 20px;
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,144,70,1) 100%);
+    background: radial-gradient(circle, rgba(63, 94, 251, 0.49) 0%, rgba(252, 144, 70, 0.15) 100%);
 }
